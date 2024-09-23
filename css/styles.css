@@ -38,11 +38,26 @@ header img {
   margin: 0 auto;
 }
 
-/* Style rules for navigation area */
-nav {
-  padding: 1%;
-  margin-bottom: 1%;
+/* Style rules for hamburger meal */
+.mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+    }
+
+
+.mobile-nav a.menu-icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
+
+
 
 nav ul {
   list-style-type: none;
@@ -67,11 +82,11 @@ nav li a {
 }
 
 /* Show mobile class, hide tablet-desktop class */
-.mobile {
+.mobile and menu-links id {
   display: block;
 }
 
-.tablet-desktop {
+.tablet-desktop , #menu-links{
   display: none;
 }
 
@@ -242,7 +257,7 @@ footer p a {
     display: block;
   }
 
-  .mobile {
+  .mobile , mobile-nav {
     display: none;
   }
 
