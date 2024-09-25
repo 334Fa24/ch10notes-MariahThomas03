@@ -325,6 +325,11 @@ nav li {
     padding: 0.5% 1% 2% 0;
   }
     
+    .viewer{
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
     #example {
         display: none;
     }
