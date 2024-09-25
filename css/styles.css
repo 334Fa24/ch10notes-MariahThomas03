@@ -324,6 +324,10 @@ nav li {
   #exercises dd {
     padding: 0.5% 1% 2% 0;
   }
+    
+    #example {
+        display: none;
+    }
 
   .tel-num {
     font-size: 1.25em;
